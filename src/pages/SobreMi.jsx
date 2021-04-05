@@ -1,12 +1,14 @@
 import React from 'react';
-import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 import Presentacion from '../components/Presentacion';
 
 const SobreMi = ()=>(
-    <div className="sobremi">
-        <Nav/>
-        <Presentacion/>
-    </div>
+    <>
+        <div className="sobremi">
+            <Presentacion/>
+        </div>
+        <Footer/>
+        </>
 );
 
 export default SobreMi;

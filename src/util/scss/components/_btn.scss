@@ -12,5 +12,10 @@
 
     &-red{
         background: color('red');
+        transition: .3s all ease-in-out;
+
+        &:hover{
+            background: color('redHover');
+        }
     }
 }
