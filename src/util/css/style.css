@@ -1,8 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: "Anton", sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+  font-size: 2rem;
+  font-family: "Anton", sans-serif;
+}
+
+p, a, button, span {
+  font-size: 1.3rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a, button {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav {
+  width: 100%;
+  padding: 40px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav ul {
+  list-style: none;
+  display: inline-block;
+}
+.nav ul li {
+  display: inline-block;
+}
+.nav-link {
+  margin: 0 10px;
+  color: #ffff;
+}
+
+.btn-red {
+  padding: 5px;
+  border-radius: 5px;
+  color: #ffff;
+}
+
+.btn-red {
+  background: #E82357;
+}
+
+.sobremi {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/img/banner.png");
+  background-size: cover;
+}
+
+.presentacion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10% 10%;
+}
+.presentacion-nombre h1 {
+  color: #ffff;
+  margin-bottom: 10px;
+}
+.presentacion-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.presentacion-img p {
+  color: #ffff;
+  width: 50%;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

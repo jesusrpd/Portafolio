@@ -1,7 +1,8 @@
 import React from 'react';
+import SobreMi from './pages/SobreMi';
 
 const App = ()=>(
-    <h1>React</h1>
+    <SobreMi/>
 );
 
 export default App;

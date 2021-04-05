@@ -1,0 +1,16 @@
+%btn{
+    padding: 5px;
+    border-radius: 5px;
+    color: color('white');
+}
+
+
+.btn{
+    &-red{
+        @extend %btn;
+    }
+
+    &-red{
+        background: color('red');
+    }
+}

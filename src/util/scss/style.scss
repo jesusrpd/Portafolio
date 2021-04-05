@@ -1,6 +1,14 @@
 //FONTS
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed&display=swap');
 
 //ABSTRACTS
-@import './abstracts/reset';
+@import 
+    './abstracts/functions',
+    './abstracts/colors',
+    './abstracts/reset';
 
 //COMPONENTS
+@import 
+    './components/nav.scss',
+    './components/btn',
+    './components/layout';

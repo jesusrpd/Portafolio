@@ -4,3 +4,23 @@
     box-sizing: border-box;
     font-size: 16px;
 }
+
+h1{
+    font-size: 5rem;
+    font-family: 'Anton', sans-serif;
+}
+
+h2, h3, h4, h5, h6{
+    font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+}
+
+p, a, button, span{
+    font-size: 1.3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a, button{
+    text-decoration: none;
+    cursor: pointer;
+}
