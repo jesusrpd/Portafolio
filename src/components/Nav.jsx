@@ -3,7 +3,6 @@ import inicialesIMG from '../assets/SVG/iniciales.svg';
 import {Link} from 'react-router-dom';
 
 const Nav = ()=>{
-
     const [tab, setTab] = useState(0);
 
     const handleTab = i =>{
@@ -15,7 +14,7 @@ const Nav = ()=>{
             <img src={inicialesIMG} width="50px" alt="Iniciales de mi nombre"/>
             <ul>
                 <li>
-                    <Link to="/sobremi" onClick={()=> handleTab(0)} className={tab === 0 ? "nav-link tab": "nav-link"} href="#">Sobre mí</Link>
+                    <Link to="/sobremi" onClick={()=>handleTab(0)} className={tab === 0 ? "nav-link tab": "nav-link"}>Sobre mí</Link>
                 </li>
                 <li>
                     <Link to="/portafolio" onClick={()=> handleTab(1)} className={tab === 1 ? "nav-link tab": "nav-link"} href="#">Portafolio</Link>

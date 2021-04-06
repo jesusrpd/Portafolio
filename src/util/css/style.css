@@ -30,6 +30,7 @@ a, button {
   width: 100%;
   padding: 40px 50px;
   position: absolute;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -109,6 +110,52 @@ a, button {
   color: #ffff;
   width: 50%;
   margin: 20px;
+}
+
+.portafolio {
+  width: 100%;
+  background: #1C1B35;
+  padding-bottom: 100px;
+}
+.portafolio-video {
+  width: 100%;
+}
+.portafolio-content h2 {
+  font-size: 3rem;
+  margin: 100px 0;
+  color: #ffff;
+  text-align: center;
+}
+.portafolio-section {
+  width: 100%;
+  height: fit-content;
+}
+.portafolio-section h3 {
+  color: #ffff;
+  font-size: 2rem;
+  margin: 20px 0;
+  margin-left: 50px;
+}
+.portafolio-trabajos-content {
+  width: 90%;
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.trabajo {
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+}
+.trabajo-img {
+  border-radius: 5px;
+}
+.trabajo-btn {
+  width: 100%;
+  border: none;
 }
 
 .footer {

@@ -4,6 +4,7 @@ import SobreMi from './pages/SobreMi';
 import Portafolio from './pages/Portafolio';
 import Habilidades from './pages/Habilidades';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 const App = ()=>(
     <Router>
@@ -14,6 +15,7 @@ const App = ()=>(
             <Route path="/habilidades" component={Habilidades}/>
             <Route component={SobreMi}/>
         </Switch>
+        <Footer/>
     </Router>
 );
 
