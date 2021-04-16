@@ -33,6 +33,10 @@
             transition: width .3s;
         }
     }
+
+    &-icon{
+        width: 100px;
+    }
 }
 
 .tab::after{

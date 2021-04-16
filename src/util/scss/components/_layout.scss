@@ -79,18 +79,22 @@
     margin: 20px;
 
     &-img{
+        width: 500px;
+        height: 256px;
         border-radius: 5px;
     }
 
     &-btn{
         width: 100%;
+        display: block;
+        text-align: center;
         border: none;
     }
 }
 
 .habilidades{
     width: 100%;
-    height: 120vh;
+    height: fit-content;
     padding-top: 150px;
     background: color('primary');
 
