@@ -8,8 +8,8 @@ const useGet = seccion =>{
 
     useEffect(()=>{
         const getTrabajos = async ()=>{
-            const date = new Date()
-            const res = await axios.get(`http://localhost:4000/api/trabajos/${seccion}`,{
+            const date = new Date();
+            const res = await axios.get(`/api/trabajos/${seccion}`,{
                 headers:{
                     'If-Modified-Since': date
                 }

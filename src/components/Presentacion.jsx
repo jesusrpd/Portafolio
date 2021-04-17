@@ -5,7 +5,7 @@ const Presentacion = ()=>(
     <div className="presentacion">
         <div className="presentacion-nombre">
             <h1>Jesús Rodrigo<br/>Pérez Delgado</h1>
-            <a href="../cv.pdf" download="cv.pdf" className="btn-red">Descargar CV</a>
+            <a href="https://doc-10-4s-docs.googleusercontent.com/docs/securesc/kvt4jookj2oahditnhlmgdhob1gjthdu/nkv3ff0fgqnmijr2rlraaeaqj4hvn094/1618618725000/06323748094289428561/06323748094289428561/1Olu_Ze6o_OL1uJP5yDq3g0kydCT9Dx-h?e=download&authuser=0" download className="btn-red">Descargar CV</a>
         </div>
         <div className="presentacion-img">
         <img src={perfilIMG} alt="imágen de perfil" width="300px"/>
