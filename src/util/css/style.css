@@ -309,6 +309,55 @@ a, button {
     flex-direction: column;
   }
 }
+@media only screen and (max-width: 399px) {
+  .presentacion {
+    flex-direction: column;
+    padding-top: 100px;
+    padding: 0% 10%;
+  }
+  .presentacion-nombre {
+    margin-bottom: 50px;
+  }
+  .presentacion-nombre h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .presentacion-nombre a {
+    margin-left: 80px;
+  }
+  .presentacion-img p {
+    text-align: center;
+  }
+
+  .nav {
+    padding: 20px 10px;
+    flex-direction: column;
+  }
+  .nav ul {
+    display: flex;
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 50px;
+  }
+  .footer p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .trabajo {
+    width: 300px;
+    margin: 0;
+  }
+  .trabajo-img {
+    width: inherit;
+  }
+
+  .portafolio-trabajos-content {
+    flex-direction: column;
+  }
+}
 .lds-ring {
   display: block;
   position: relative;

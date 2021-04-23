@@ -68,3 +68,58 @@
         flex-direction: column;
     }
 }
+
+@media only screen and (max-width: 399px){
+
+    .presentacion{
+        flex-direction: column;
+        padding-top: 100px;
+        padding: 0% 10%;
+        &-nombre{
+            margin-bottom: 50px;
+            h1{
+                font-size: 3rem;
+                text-align: center;
+            }
+            a{
+                margin-left: 80px;
+            }
+        }
+        &-img{
+            p{
+                text-align: center;
+            }
+        }
+    }
+
+    .nav{
+        padding: 20px 10px;
+        flex-direction: column;
+
+        ul{
+            display: flex;
+        }
+    }
+
+    .footer{
+        flex-direction: column;
+        padding: 50px;
+        p{
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
+
+    .trabajo{
+        width: 300px;
+        margin: 0;
+
+        &-img{
+            width: inherit;
+        }
+    }
+
+    .portafolio-trabajos-content{
+        flex-direction: column;
+    }
+}

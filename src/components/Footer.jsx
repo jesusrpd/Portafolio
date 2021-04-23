@@ -3,7 +3,7 @@ import {ReactComponent as FacebookIcon} from '../assets/SVG/facebook.svg';
 import {ReactComponent as InstagramIcon} from '../assets/SVG/instagram.svg';
 import {ReactComponent as GithubIcon} from '../assets/SVG/github.svg';
 import {ReactComponent as GmailIcon} from '../assets/SVG/gmail.svg';
-import {ReactComponent as WhatsappIcon} from '../assets/SVG/whatsapp.svg';
+import {ReactComponent as WhatsappIcon} from '../assets/SVG/whatsApp.svg';
 import {ReactComponent as LinkedinIcon} from '../assets/SVG/linkedin.svg';
 
 const Footer = ()=>(
